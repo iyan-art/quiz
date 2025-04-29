@@ -1,0 +1,92 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #4e85d7;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #03020f;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #b1a7b4;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='file'] {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4b3cfa;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #9994d6;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.book-list {
+  margin-top: 20px;
+}
+
+.book-card {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.book-card h3 {
+  margin: 0;
+  color: #2a2a2a;
+}
+
+.book-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.pagination span {
+  font-weight: bold;
+  color: #333;
+}
